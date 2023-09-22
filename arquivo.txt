@@ -1,4 +1,4 @@
-Algoritmo "menu_lanchoneteRayanne"
+Algoritmo "menu_lanchoneteRayanne - versão 2"
 
 Var
    opcao, total, valor_item: Real
