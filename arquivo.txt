@@ -1,0 +1,42 @@
+Algoritmo "menu_lanchoneteRayanne"
+
+Var
+   opcao, total, valor_item: Real
+
+Inicio
+total <- 0
+
+Repita
+    Escreval("Menu de Lanchonete - Aluno(a)")
+    Escreval("1 - X-Salada")
+    Escreval("2 - X-Bacon")
+    Escreval("3 - X-Egg")
+    Escreval("4 - Refrigerante")
+    Escreval("5 - Finalizar pedido")
+    Escreval("Escolha uma opção: ")
+    Leia(opcao)
+
+    Escolha opcao
+        Caso 1
+            valor_item <- 10.0
+            total <- total + valor_item
+        Caso 2
+            valor_item <- 12.0
+            total <- total + valor_item
+        Caso 3
+            valor_item <- 11.0
+            total <- total + valor_item
+        Caso 4
+            valor_item <- 4.0
+            total <- total + valor_item
+        Caso 5
+            Escreval("Total do pedido: R$", total)
+        Caso 0
+            Escreval("Opção inválida. Escolha novamente.")
+    FimEscolha
+
+Até opcao = 5
+
+
+Fimalgoritmo
+
